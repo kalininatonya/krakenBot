@@ -1,0 +1,7 @@
+{
+  "port": "PORT",
+  "telegram": {
+    "chatId": "TELEGRAM_CHAT_ID",
+    "token": "TELEGRAM_TOKEN"
+  }
+}
