@@ -26,11 +26,11 @@ if (isExist) {
     } else {
         indexPicture = Number(indexPicture) + 1;
     }
-    fs.writeFileSync(fileName, `${indexPicture}`);
 } else {
     //Для первой записи
-    fs.writeFileSync(fileName, '0');
+    indexPicture = 0;
 }
+fs.writeFileSync(fileName, `${indexPicture}`);
 
 const imgWithSort = pictures.sort(([name1], [name2]) => [Number(name1)] - [Number(name2)]);
 const [name, extension] = imgWithSort[indexPicture];
