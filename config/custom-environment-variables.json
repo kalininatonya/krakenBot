@@ -1,5 +1,10 @@
 {
   "port": "PORT",
+  "work": {
+    "text": "TEXT",
+    "link": "TS_LINK",
+    "stage": "STAGE"
+  },
   "telegram": {
     "chatId": "TELEGRAM_CHAT_ID",
     "token": "TELEGRAM_TOKEN"
