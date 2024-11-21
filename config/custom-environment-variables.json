@@ -1,5 +1,10 @@
 {
   "port": "PORT",
+  "google": {
+    "email": "GOOGLE_SERVICE_ACCOUNT_EMAIL",
+    "key": "GOOGLE_PRIVATE_KEY",
+    "urlSheetId": "URL_SHEET_ID"
+  },
   "work": {
     "text": "TEXT",
     "link": "TS_LINK",
@@ -7,6 +12,13 @@
   },
   "telegram": {
     "chatId": "TELEGRAM_CHAT_ID",
-    "token": "TELEGRAM_TOKEN"
+    "token": "TELEGRAM_TOKEN",
+  },
+  "managers":{
+    "name": {
+      "id": "TELEGRAM_USER_ID",
+      "name": "TELEGRAM_USER_NAME",
+      "surname": "TELEGRAM_USER_SURNAME"
+    }
   }
 }
